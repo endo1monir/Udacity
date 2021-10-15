@@ -1,7 +1,7 @@
 /*
  *
  * CSS written based on SMACSS architecture.
- * To learn more, visit: http://smacss.com/
+ * To learn more, visit: http://sma css.com/
  * 
  * For simplicity, no reset or normalize is added. 
  * To learn more, visit: https://css-tricks.com/reboot-resets-reasoning/
@@ -67,11 +67,14 @@ section {
 .navbar__menu ul {
     padding-left: 0;
     margin: 0;
-    text-align: right;
+    text-align: left;
+    background: #3D636E;
+ 
 }
 
 .navbar__menu li {
     display: inline-block;
+    font-size: 25px;
 }
 
 .navbar__menu .menu__link {
@@ -221,3 +224,40 @@ section.your-active-class .landing__container::after {
 		           rotate(-360deg);
 	}
 }
+.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 20;
+    top: 10;
+  }
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+
+    
+     #navbar__list{
+          display: none;
+      }
+ }
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+
+ }
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+    
+ }
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+    .icon {
+        display: none;
+    }
+ }
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {
+
+ } 
