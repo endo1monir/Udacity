@@ -3,7 +3,7 @@
 ## Table of Contents
 
 * [Instructions](#instructions)
-* [What the project does?](#What the project does?)
+* [What the project does](#What the project does?)
 * [How users can get started with the project?](#How users can get started with the project?)
 * [ Who maintains and contributes to the project?](# Who maintains and contributes to the project?)
 ## Instructions
