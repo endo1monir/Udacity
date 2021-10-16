@@ -3,7 +3,7 @@
 ## Table of Contents
 
 * [Instructions](#instructions)
-* [What the project does](#What the project does?)
+
 * [How users can get started with the project?](#How users can get started with the project?)
 * [ Who maintains and contributes to the project?](# Who maintains and contributes to the project?)
 ## Instructions
@@ -15,7 +15,7 @@ To get started, open `js/app.js` and start building out the app's functionality
 For specific, detailed instructions, look at the project instructions in the Udacity Classroom.
 
 
-
+* [What the project does](#What the project does?)
 
 ## What the project does?
  The project aimed to make the static page is interactive with the user and make it usable.
